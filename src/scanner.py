@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from config import SUPPORTED_EXTENSIONS
+from src.config import SUPPORTED_EXTENSIONS
 
 
 def scan_wallpapers(directories: list[Path]) -> list[Path]:

@@ -3,8 +3,8 @@ from config import (
     RANDOM_MODE,
     WALLPAPER_DIRECTORIES,
 )
-from scanner import scan_wallpapers
-from scheduler import run_scheduler
+from src.scanner import scan_wallpapers
+from src.scheduler import run_scheduler
 
 
 def main() -> None:

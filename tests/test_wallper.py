@@ -1,10 +1,10 @@
 from unittest.mock import patch
 from pathlib import Path
 
-from ..src.wallper import set_wallpaper
+from src.wallpaper import set_wallpaper
 
 
-@patch("src.wallper.subprocess.run")
+@patch("src.wallpaper.subprocess.run")
 def test_set_wallpaper(mock_run, tmp_path: Path):
     image = tmp_path / "wallpaper.jpg"
     image.touch()

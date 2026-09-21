@@ -1,7 +1,7 @@
 from pathlib import Path
 
 WALLPAPER_DIRECTORIES = [
-    Path.home() / "Pictures",
+    Path.home() / ".local/share/backgrounds",
 ]
 
 SUPPORTED_EXTENSIONS = {
@@ -11,5 +11,5 @@ SUPPORTED_EXTENSIONS = {
     ".webp",
 }
 
-DEFAULT_INTERVAL = 30 * 60  # 30 minutos
+DEFAULT_INTERVAL = 2 * 60  # 2 minutos
 RANDOM_MODE = True
