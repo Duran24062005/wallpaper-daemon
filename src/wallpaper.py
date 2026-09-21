@@ -5,16 +5,17 @@ from pathlib import Path
 def set_wallpaper(image: Path) -> None:
     uri = image.resolve().as_uri()
 
-    subprocess.run(
-        [
-            "gsettings",
-            "set",
-            "org.gnome.desktop.background",
-            "picture-uri",
-            uri,
-        ],
-        check=True,
-    )
+    for key in ("picture-uri", "picture-uri-dark"):
+        subprocess.run(
+            [
+                "gsettings",
+                "set",
+                "org.gnome.desktop.background",
+                key,
+                uri,
+            ],
+            check=True,
+        )
 
 
 def get_current_wallpaper() -> str:
