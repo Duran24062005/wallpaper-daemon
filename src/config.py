@@ -11,5 +11,5 @@ SUPPORTED_EXTENSIONS = {
     ".webp",
 }
 
-DEFAULT_INTERVAL = 2 * 60  # 2 minutos
+DEFAULT_INTERVAL = 1 * 60  # 2 minutos
 RANDOM_MODE = True

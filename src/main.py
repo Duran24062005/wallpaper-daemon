@@ -1,4 +1,4 @@
-from config import (
+from src.config import (
     DEFAULT_INTERVAL,
     RANDOM_MODE,
     WALLPAPER_DIRECTORIES,
