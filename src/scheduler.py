@@ -2,7 +2,7 @@ import random
 import time
 from pathlib import Path
 
-from wallpaper import set_wallpaper
+from .wallper import set_wallpaper
 
 
 def run_scheduler(
