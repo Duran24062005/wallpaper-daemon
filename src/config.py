@@ -11,5 +11,15 @@ SUPPORTED_EXTENSIONS = {
     ".webp",
 }
 
+GIF_EXTENSIONS = {
+    ".gif",
+}
+
+VIDEO_EXTENSIONS = {
+    ".mp4",
+    ".webm",
+    ".mkv",
+}
+
 DEFAULT_INTERVAL = 0.2 * 60  # 2 minutos
 RANDOM_MODE = True
